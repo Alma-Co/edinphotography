@@ -1,8 +1,9 @@
 backend:
-  name: git-gateway
-media_folder: "static/images"
-public_folder: "/images/uploads"
-collections:
+  name: test-repo 
+  media_folder: "static/images"
+  public_folder: "/images/uploads"
+  display_url: https://your-site.com
+  collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
     folder: "_posts/blog" # The path to the folder where the documents are stored
