@@ -15,41 +15,20 @@ collections:
     - {label: 'Subtitle', name: 'subtitle', widget: 'markdown', required: false},
     - {label: 'Text', name: 'text', widget: 'markdown', required: false},
     - {label: "Publish Date", name: "date", widget: "datetime"}
-    - {label: 'Images block', name: 'imagesBlock', widget: 'list', required: false, collapsed: false,
-        fields: [
-          {
-            label: 'Disposition',
-            name: 'disposition',
-            widget: 'select',
-            options: ['line', 'square', 'normal'],
-          }
-          {
-            label: 'Images',
-            name: 'images',
-            widget: 'list',
-            allow_multiple: false,
-            required: false,
-            collapsed: false,
-            fields: [
-              {
-                label: 'Image',
-                name: 'image',
-                widget: 'image',
-                required: true,
-              },
-              {
-                label: 'Image Alt',
-                name: 'imageAlt',
-                widget: 'string',
-                required: false,
-              },
-              {
-                label: 'Description',
-                name: 'description',
-                widget: 'markdown',
-                required: false,
-              },
-            ],
-          },
-        ],
-      },
+    - label: 'Images block', 
+      name: 'imagesBlock', 
+      widget: 'list', 
+      required: false, 
+      collapsed: false,
+      fields: 
+        - { label: 'Disposition', name: 'disposition', widget: 'select', options: ['line', 'square', 'normal']}
+        - label: 'Images', 
+          name: 'images', 
+          widget: 'list', 
+          allow_multiple: false, 
+          required: false, 
+          collapsed: false,
+          fields: 
+            - {label: 'Image', name: 'image', widget: 'image', required: true},
+            - {label: 'Image Alt', name: 'imageAlt', widget: 'string', required: false},
+            - {label: 'Description', name: 'description', widget: 'markdown', required: false}
