@@ -1,38 +1,70 @@
-# create-svelte
+    
+            ░░▄███▄███▄ 
+            ░░█████████ 
+            ░░▒▀█████▀░ 
+            ░░▒░░▀█▀    
+            ░░▒░░█░ 
+            ░░▒░█   
+            ░░░█    
+            ░░█░░░░███████  
+            ░██░░░██▓▓███▓██▒   
+            ██░░░█▓▓▓▓▓▓▓█▓████ 
+            ██░░██▓▓▓(◐)▓█▓█▓█  
+            ███▓▓▓█▓▓▓▓▓█▓█▓▓▓▓█    
+            ▀██▓▓█░██▓▓▓▓██▓▓▓▓▓█   
+            ░▀██▀░░█▓▓▓▓▓▓▓▓▓▓▓▓▓█  
+            ░░░░▒░░░█▓▓▓▓▓█▓▓▓▓▓▓█  
+            ░░░░▒░░░█▓▓▓▓█▓█▓▓▓▓▓█  
+            ░▒░░▒░░░█▓▓▓█▓▓▓█▓▓▓▓█  
+            ░▒░░▒░░░█▓▓▓█░░░█▓▓▓█   
+            ░▒░░▒░░██▓██░░░██▓▓██   
+            ████████████████████████    
+            █▄─▄███─▄▄─█▄─█─▄█▄─▄▄─█    
+            ██─██▀█─██─██─█─███─▄█▀█    
+            ▀▄▄▄▄▄▀▄▄▄▄▀▀▄▄▄▀▀▄▄▄▄▄▀    
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+# Ed in Prohotography
 
-## Creating a project
+This project is a responsive static web page developed using Svelte Kit and Tailwind CSS. It features a content management system (Decap CMS) for easy image and text uploads. Images are stored in a dedicated bucket to handle heavy image loads. The site is deployed on Netlify.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Features
+
+- Responsive design
+- Tailwind CSS for styling
+- Decap CMS for content management
+- Image storage bucket
+- Deployment on Netlify
+
+## Development
+
+To set up the development environment for this project, follow the steps below:
+
+1. Clone the repository to your local machine.
+2. Install the dependencies using `npm install` (or `pnpm install` or `yarn`).
+3. Start the development server with `npm run dev`.
 
 ```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
+git clone <repository-url>
+cd <repository-name>
+npm install
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
+## Contributing
 
-To create a production version of your app:
+If you want to contribute to this project and make it better, your help is very welcome. Here are the steps to do so:
 
-```bash
-npm run build
-```
+Fork the project.
+Create a new branch.
+Make your changes and commit them with a clear and concise commit message.
+Push your changes to the branch on your forked repository.
+Submit a pull request to the original repository.
+Please ensure your pull request adheres to the following guidelines:
 
-You can preview the production build with `npm run preview`.
+Write clear and concise commit messages.
+Make sure your changes pass the existing tests and, if necessary, write new tests.
+Update the README with the details of changes to the interface, this includes new environment variables, exposed ports, useful file locations, and container parameters.
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## Deployment
+
+The site is deployed on Netlify. Any changes pushed to the main branch will automatically trigger a new build and deployment on Netlify.
