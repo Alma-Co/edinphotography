@@ -4,14 +4,12 @@ export default {
   theme: {
     extend: {},
     screens: {
+      'xs': '342px',
       'sm': '576px',
-      // => @media (min-width: 576px) { ... }
-
       'md': '960px',
-      // => @media (min-width: 960px) { ... }
-
       'lg': '1440px',
-      // => @media (min-width: 1440px) { ... }
+      'xl': '1700px',
+      '2xl': '1900px'
     },
   },
   plugins: [],

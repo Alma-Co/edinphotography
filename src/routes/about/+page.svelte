@@ -1,26 +1,56 @@
+<script>
+	import image1 from '$lib/images/test1.jpg';
+	import image2 from '$lib/images/test2.jpg';
+	import image3 from '$lib/images/test3.jpg';
+	import image4 from '$lib/images/test4.jpg';
+	import image5 from '$lib/images/test5.jpg';
+	import Picture from '../Picture.svelte';
+	const images = [
+		{
+			picture: image1,
+			alt: "alt 1",
+			description: "here is a blablabla"
+		},
+		{
+			picture: image2,
+			alt: 'alt 2',
+			description: "here is a blablabla"
+		},
+		{
+			picture: image3,
+			alt: 'alt 3',
+			description: "here is a blablabla"
+		},
+		{
+			picture: image4,
+			alt: 'alt 4',
+			description: "here is a blablabla"
+		},
+		{
+			picture: image5,
+			alt: 'alt 5',
+			description: "here is a blablabla"
+		},
+	]
+</script>
 <svelte:head>
 	<title>About</title>
 	<meta name="description" content="About this app" />
 </svelte:head>
 
-<div class="text-column">
-	<h1>About this app</h1>
+<section>
+	<div class="flex flex-row gap-8 flex-wrap">
+		{#each images as object}
+			<Picture src={object.picture} alt={object.alt} />
+		{/each}
+	</div>
+</section>
 
-	<p>
-		This is a <a href="https://kit.svelte.dev">SvelteKit</a> app. You can make your own by typing the
-		following into your command line and following the prompts:
-	</p>
 
-	<pre>npm create svelte@latest</pre>
+<style>
+	section {
+		width: 100%;
+		height: 100%;
+	}
 
-	<p>
-		The page you're looking at is purely static HTML, with no client-side interactivity needed.
-		Because of that, we don't need to load any JavaScript. Try viewing the page's source, or opening
-		the devtools network panel and reloading.
-	</p>
-
-	<p>
-		The <a href="/sverdle">Sverdle</a> page illustrates SvelteKit's data loading and form handling. Try
-		using it with JavaScript disabled!
-	</p>
-</div>
+</style>

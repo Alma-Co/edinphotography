@@ -2,25 +2,29 @@
 	import Header from './Header.svelte';
 	import Navbar from './Navbar.svelte';
 	import './styles.css';
-	export const prerender = true;
 	import "../app.css";
+	export const prerender = true;
+	import Autolayer from './Autolayer.svelte';
+	import Footer from './Footer.svelte';
 </script>
 
 <div class="app">
-	<Header />
-	
-	<main>
-		<Navbar />
-		<slot />
-	</main>
-	<footer>
-	</footer>
+	<Autolayer>
+		<Header />
+
+		<main>
+			<Navbar />
+			<slot />
+		</main>
+		<Footer/>
+	</Autolayer>
 </div>
 
 <style>
 	.app {
 		display: flex;
 		flex-direction: column;
+		align-items: center;
 		min-height: 100vh;
 	}
 
@@ -28,13 +32,5 @@
 		display: flex;
 		flex-direction: row;
 		width: 100%;
-	}
-
-	footer {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		padding: 12px;
 	}
 </style>

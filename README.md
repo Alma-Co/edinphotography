@@ -1,29 +1,4 @@
-    
-            ░░▄███▄███▄ 
-            ░░█████████ 
-            ░░▒▀█████▀░ 
-            ░░▒░░▀█▀    
-            ░░▒░░█░ 
-            ░░▒░█   
-            ░░░█    
-            ░░█░░░░███████  
-            ░██░░░██▓▓███▓██▒   
-            ██░░░█▓▓▓▓▓▓▓█▓████ 
-            ██░░██▓▓▓(◐)▓█▓█▓█  
-            ███▓▓▓█▓▓▓▓▓█▓█▓▓▓▓█    
-            ▀██▓▓█░██▓▓▓▓██▓▓▓▓▓█   
-            ░▀██▀░░█▓▓▓▓▓▓▓▓▓▓▓▓▓█  
-            ░░░░▒░░░█▓▓▓▓▓█▓▓▓▓▓▓█  
-            ░░░░▒░░░█▓▓▓▓█▓█▓▓▓▓▓█  
-            ░▒░░▒░░░█▓▓▓█▓▓▓█▓▓▓▓█  
-            ░▒░░▒░░░█▓▓▓█░░░█▓▓▓█   
-            ░▒░░▒░░██▓██░░░██▓▓██   
-            ████████████████████████    
-            █▄─▄███─▄▄─█▄─█─▄█▄─▄▄─█    
-            ██─██▀█─██─██─█─███─▄█▀█    
-            ▀▄▄▄▄▄▀▄▄▄▄▀▀▄▄▄▀▀▄▄▄▄▄▀    
-
-# Ed in Prohotography
+# Ed in Prohotography 
 
 This project is a responsive static web page developed using Svelte Kit and Tailwind CSS. It features a content management system (Decap CMS) for easy image and text uploads. Images are stored in a dedicated bucket to handle heavy image loads. The site is deployed on Netlify.
 
@@ -68,3 +43,12 @@ Update the README with the details of changes to the interface, this includes ne
 ## Deployment
 
 The site is deployed on Netlify. Any changes pushed to the main branch will automatically trigger a new build and deployment on Netlify.
+
+
+ (\__/)  .~    ~. ))
+ /O O  ./      .'
+{O__,   \    {
+  / .  . )    \
+  |-| '-' \    }
+ .(   _(   )_.'
+'---.~_ _ _&
