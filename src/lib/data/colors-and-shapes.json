@@ -1,0 +1,27 @@
+{
+  "date": "2024-02-25T20:22:03.833Z",
+  "title": "Colors and shapes",
+  "subtitle": "Focusing on details, highlight textures, patterns and colors.",
+  "imagesBlock": [
+    {
+      "images": [
+        {
+          "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1708861807/shapes/palmeras_nxtgze.webp"
+        },
+        {
+          "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1708885086/shapes/DSCF0489_ypycrr.webp"
+        },
+        {
+          "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1708885087/shapes/DSCF0527_ilrfsr.webp"
+        },
+        {
+          "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1708885088/shapes/DSCF0492_aqx72h.webp"
+        },
+        {
+          "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1708885706/shapes/DSCF0265_tsxb62.webp"
+        }
+      ],
+      "disposition": "normal"
+    }
+  ]
+}
