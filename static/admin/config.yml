@@ -1,8 +1,13 @@
 backend:
   name: git-gateway 
   branch: main # Branch to update (optional; defaults to master)
-media_folder: "static/images/uploads"
-public_folder: "/images/uploads"
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: dmkeeg0ec
+    api_key: '539154428728217'
+media_folder: "static/media"
+public_folder: "/media"
 display_url: https://your-site.com
 collections:
   - name: "pages" # Used in routes, e.g., /admin/collections/blog
