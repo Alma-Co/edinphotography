@@ -1,0 +1,22 @@
+{
+  "date": "2024-02-25T20:08:43.490Z",
+  "title": "Colors and shapes",
+  "subtitle": "Focusing on details , highlight textures, patterns and colors.",
+  "imagesBlock": [
+    {
+      "images": [
+        {
+          "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1708861807/shapes/palmeras_nxtgze.webp",
+          "imageAlt": "under-water",
+          "description": "At swimming pool"
+        },
+        {
+          "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1708885086/shapes/DSCF0489_ypycrr.webp",
+          "imageAlt": "docks-color",
+          "description": "Docks, Saint Pierre"
+        }
+      ],
+      "disposition": "normal"
+    }
+  ]
+}
