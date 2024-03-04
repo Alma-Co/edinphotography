@@ -1,7 +1,4 @@
 <script>
-	import Counter from './Counter.svelte';
-	import welcome from '$lib/images/svelte-welcome.webp';
-	import welcome_fallback from '$lib/images/svelte-welcome.png';
 </script>
 
 <svelte:head>
@@ -10,20 +7,10 @@
 </svelte:head>
 
 <section>
-	<!-- <h1>
-		<span class="welcome">
-			<picture>
-				<source srcset={welcome} type="image/webp" />
-				<img src={welcome_fallback} alt="Welcome" />
-			</picture>
-		</span>
-
-		to your new<br />SvelteKit app
-	</h1>
-
-	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
-	</h2> -->
+	<h1>Home</h1>
+	<p>Welcome to my website album of all my travel and my photography projects</p>
+	<p>Feel free to explore the different sections</p>
+	<p>Enjoy!</p>
 </section>
 
 <style>
@@ -32,26 +19,14 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		flex: 0.6;
+		width: 100%;
+		height: 65vh;
 	}
-
 	h1 {
-		width: 100%;
+		font-size: 3rem;
 	}
-
-	.welcome {
-		display: block;
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
-	}
-
-	.welcome img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		display: block;
+	p {
+		font-size: 1.5rem;
 	}
 </style>
+
