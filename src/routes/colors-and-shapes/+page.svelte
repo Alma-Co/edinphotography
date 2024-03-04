@@ -30,7 +30,7 @@
 </script>
 <svelte:head>
 	<title>Colors and shapes</title>
-	<meta name="description" content="About this app" />
+	<meta name="description" content="colors and shapes pictures" />
 </svelte:head>
 <!-- NORMAL : flex flex-row gap-5 flex-wrap -->
 <section>
