@@ -11,9 +11,8 @@
 <div class="app">
 	<Autolayer>
 		<Header />
-
+		<Navbar />
 		<main>
-			<Navbar />
 			<slot />
 		</main>
 		<Footer/>
