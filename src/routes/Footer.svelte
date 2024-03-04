@@ -4,13 +4,14 @@
 </script>
 
 
-<footer class="flex flex-col justify-center align-center">
-    <div class="w-[30px]">
-		<a class="flex align-center justify-center w-full" 
-            href="https://github.com/sveltejs/kit">
-			<img class="w-[20px] object-contain bg-white" src={github} alt="GitHub" />
-		</a>
-	</div>
+<footer class="flex flex-col mt-8 justify-center items-center gap-1">
+	<div class="w-[30px]">
+		<a 
+		href="https://github.com/Alma-Co">
+		<img class="w-[20px] object-contain bg-white" src={github} alt="GitHub" />
+	</a>
+</div>
+happy to see u!
 </footer>
 
 
