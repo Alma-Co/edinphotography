@@ -4,24 +4,76 @@
   "subtitle": "Focusing on details, highlight textures, patterns and colors.",
   "imagesBlock": [
     {
+      "disposition": "line",
+      "images": [
+        {
+          "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587192/DSCF0489_jonykj.webp",
+          "imageAlt": "docks-orange"
+        },
+        {
+          "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587192/DSCF0492_uoh1qr.webp",
+          "imageAlt": "docks-blue"
+        },
+        {
+          "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587191/DSCF0527_szaxon.webp",
+          "imageAlt": "golf"
+        },
+        {
+          "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587189/DSCF0561_yuakgq.webp",
+          "imageAlt": "tree"
+        }
+      ]
+    },
+    {
+      "disposition": "right",
+      "images": [
+        {
+          "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587198/DSCF0420_o0mq2v.webp",
+          "imageAlt": "garden-door"
+        },
+        {
+          "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587185/DSCF0409_nysano.webp",
+          "imageAlt": "goutière"
+        }
+      ]
+    },
+    {
+      "disposition": "left",
+      "images": [
+        {
+          "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587180/DSCF0636_d3s7gj.webp",
+          "imageAlt": "sea"
+        },
+        {
+          "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587181/DSCF0670_y6r7sh.webp",
+          "imageAlt": "sea-tire"
+        }
+      ]
+    },
+    {
+      "disposition": "line",
       "images": [
         {
           "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1708861807/shapes/palmeras_nxtgze.webp"
         },
         {
-          "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1708885086/shapes/DSCF0489_ypycrr.webp"
+          "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587198/DSCF0593_xxa6ti.webp"
         },
         {
-          "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1708885087/shapes/DSCF0527_ilrfsr.webp"
+          "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587181/DSCF0888_ncz2sg.webp"
         },
         {
-          "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1708885088/shapes/DSCF0492_aqx72h.webp"
-        },
-        {
-          "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1708885706/shapes/DSCF0265_tsxb62.webp"
+          "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587179/DSCF1819_gk5jrm.webp"
         }
-      ],
-      "disposition": "normal"
+      ]
+    },
+    {
+      "disposition": "middle'",
+      "images": [
+        {
+          "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587171/DSCF5397_ki09ie.webp"
+        }
+      ]
     }
   ]
 }
