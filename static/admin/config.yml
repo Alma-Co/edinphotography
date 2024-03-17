@@ -27,19 +27,23 @@ collections:
         required: false
         collapsed: false
         fields: 
-          - label: 'Grid'
-            name: 'grid'
+          - label: 'Component'
+            name: 'component'
             widget: 'object'
             required: false
             collapsed: true
-            fields: 
+            fields:
+              - label: 'type'
+                name: 'type'
+                widget: 'select'
+                options: ['grid', 'flex', 'divider']
               - label: 'Images block'
                 name: 'imagesBlock'
                 widget: 'list'
                 required: false
                 collapsed: false
                 fields: 
-                  - { label: 'Disposition', name: 'disposition', widget: 'select', options: ['line', 'right', 'left', 'middle']}
+                  - { label: 'Disposition', name: 'disposition', widget: 'select', options: ['line', 'right', 'left', 'middle'], required: false}
                   - label: 'Images'
                     name: 'images'
                     widget: 'list'
@@ -50,27 +54,11 @@ collections:
                       - {label: 'Image', name: 'image', widget: 'image', required: true}
                       - {label: 'Image Alt', name: 'imageAlt', widget: 'string', required: false}
                       - {label: 'Description', name: 'description', widget: 'markdown', required: false}
-          - label: 'Row pictures'
-            name: 'flex'
-            widget: 'object'
-            required: false
-            collapsed: true
-            fields: 
-                - label: 'Images'
-                  name: 'images'
-                  widget: 'list'
-                  allow_multiple: false
-                  required: false
-                  collapsed: false
-                  fields: 
-                    - {label: 'Image', name: 'image', widget: 'image', required: true}
-                    - {label: 'Image Alt', name: 'imageAlt', widget: 'string', required: false}
-                    - {label: 'Description', name: 'description', widget: 'markdown', required: false}
-          - label: 'Divider'
-            name: 'divider'
-            widget: 'object'
-            required: false
-            collapsed: true
-            fields: 
-              - {label: 'Text', name: 'text', widget: 'markdown', required: false}
-              - {label: 'Spacer', name: 'spacer', widget: 'select', options: ['small', 'large'], required: false}
+              - label: 'Spacer' 
+                name: 'spacer' 
+                widget: 'object'
+                required: false
+                collapsed: true
+                fields:
+                  - { label: "Padding", name: 'padding', widget: 'select', options: ['small', 'large'], required: false}
+                  - { label: "Text", name: 'text', widget: 'markdown', required: false}
