@@ -2,39 +2,27 @@
 
 <script lang="ts">
 
-	interface Image {
-	  image: string;
-	  imageAlt: string | null;
-	}
-
-	interface ImagesBlock {
-	  images: Image[];
-	  disposition: string;
-	}
-
-	interface Data {
-	  date: string;
-	  title: string;
-	  subtitle: string;
-	  imagesBlock: ImagesBlock[];
-	}
-
 	import data from '$lib/data/colors-and-shapes.json';
+	import type { Data } from '$lib/models/types.svelte';
 	import GridImage from '../GridImage.svelte';
-	const { imagesBlock } = data as Data;
+	const { components } = data as Data;
 
 </script>
 <svelte:head>
 	<title>Colors and shapes</title>
 	<meta name="description" content="colors and shapes pictures" />
 </svelte:head>
-<!-- NORMAL : flex flex-row gap-5 flex-wrap -->
+
 <section>
-	<div class="grid grid-cols-4 gap-3">
-	{#each imagesBlock as block}
-		<GridImage {block} />
+	{#each components as component}
+		{#if component.type === 'grid'}
+			<div class="grid grid-cols-4 gap-3">
+				{#each component.imagesBlock as block}
+					<GridImage {block} />
+				{/each}
+			</div>
+		{/if}
 	{/each}
-	</div>
 </section>
 
 

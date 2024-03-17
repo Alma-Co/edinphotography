@@ -32,10 +32,3 @@
 
 <style lang="postcss">
 </style>
-
-
- <!-- <div class="flex flex-row gap-5 flex-wrap">
-        {#each images as object}
-            <Picture imageRatio={imageRatio} containerClass={''} src={object.image} alt={object.imageAlt || null} />
-        {/each}
-    </div> -->
