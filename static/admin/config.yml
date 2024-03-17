@@ -21,20 +21,50 @@ collections:
       - {label: 'Subtitle', name: 'subtitle', widget: 'markdown', required: false}
       - {label: 'Text', name: 'text', widget: 'markdown', required: false}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - label: 'Images block'
-        name: 'imagesBlock'
+      - label: 'components'
+        name: 'components'
         widget: 'list'
         required: false
         collapsed: false
         fields: 
-          - { label: 'Disposition', name: 'disposition', widget: 'select', options: ['line', 'right', 'left', middle', 'many']}
-          - label: 'Images'
-            name: 'images'
+          - label: 'Grid'
+            name: 'grid'
             widget: 'list'
-            allow_multiple: false
             required: false
             collapsed: false
             fields: 
-              - {label: 'Image', name: 'image', widget: 'image', required: true}
-              - {label: 'Image Alt', name: 'imageAlt', widget: 'string', required: false}
-              - {label: 'Description', name: 'description', widget: 'markdown', required: false}
+              - { label: 'Disposition', name: 'disposition', widget: 'select', options: ['line', 'right', 'left', 'middle']}
+              - label: 'Images'
+                name: 'images'
+                widget: 'list'
+                allow_multiple: false
+                required: false
+                collapsed: false
+                fields: 
+                  - {label: 'Image', name: 'image', widget: 'image', required: true}
+                  - {label: 'Image Alt', name: 'imageAlt', widget: 'string', required: false}
+                  - {label: 'Description', name: 'description', widget: 'markdown', required: false}
+          - label: 'Row pictures'
+            name: 'flex'
+            widget: 'object'
+            required: false
+            collapsed: false
+            fields: 
+                - label: 'Images'
+                  name: 'images'
+                  widget: 'list'
+                  allow_multiple: false
+                  required: false
+                  collapsed: false
+                  fields: 
+                    - {label: 'Image', name: 'image', widget: 'image', required: true}
+                    - {label: 'Image Alt', name: 'imageAlt', widget: 'string', required: false}
+                    - {label: 'Description', name: 'description', widget: 'markdown', required: false}
+          - label: 'Divider'
+            name: 'divider'
+            widget: 'object'
+            required: false
+            collapsed: false
+            fields: 
+              - {label: 'Text', name: 'text', widget: 'markdown', required: false}
+              - {label: 'Spacer', name: 'spacer', widget: 'select', options: ['small', 'large'], required: false}
