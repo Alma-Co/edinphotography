@@ -29,26 +29,32 @@ collections:
         fields: 
           - label: 'Grid'
             name: 'grid'
-            widget: 'list'
+            widget: 'object'
             required: false
-            collapsed: false
+            collapsed: true
             fields: 
-              - { label: 'Disposition', name: 'disposition', widget: 'select', options: ['line', 'right', 'left', 'middle']}
-              - label: 'Images'
-                name: 'images'
+              - label: 'Images block'
+                name: 'imagesBlock'
                 widget: 'list'
-                allow_multiple: false
                 required: false
                 collapsed: false
                 fields: 
-                  - {label: 'Image', name: 'image', widget: 'image', required: true}
-                  - {label: 'Image Alt', name: 'imageAlt', widget: 'string', required: false}
-                  - {label: 'Description', name: 'description', widget: 'markdown', required: false}
+                  - { label: 'Disposition', name: 'disposition', widget: 'select', options: ['line', 'right', 'left', 'middle']}
+                  - label: 'Images'
+                    name: 'images'
+                    widget: 'list'
+                    allow_multiple: false
+                    required: false
+                    collapsed: false
+                    fields: 
+                      - {label: 'Image', name: 'image', widget: 'image', required: true}
+                      - {label: 'Image Alt', name: 'imageAlt', widget: 'string', required: false}
+                      - {label: 'Description', name: 'description', widget: 'markdown', required: false}
           - label: 'Row pictures'
             name: 'flex'
             widget: 'object'
             required: false
-            collapsed: false
+            collapsed: true
             fields: 
                 - label: 'Images'
                   name: 'images'
@@ -64,7 +70,7 @@ collections:
             name: 'divider'
             widget: 'object'
             required: false
-            collapsed: false
+            collapsed: true
             fields: 
               - {label: 'Text', name: 'text', widget: 'markdown', required: false}
               - {label: 'Spacer', name: 'spacer', widget: 'select', options: ['small', 'large'], required: false}
