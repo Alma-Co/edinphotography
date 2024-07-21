@@ -1,16 +1,15 @@
-<script>
-	import Header from './Header.svelte';
-	import Navbar from './Navbar.svelte';
+<script lang="ts">
 	import './styles.css';
 	import "../app.css";
-	export const prerender = true;
-	import Autolayer from './Autolayer.svelte';
-	import Footer from './Footer.svelte';
+	import Header from '../components/Header.svelte';
+	import Autolayer from '../components/Autolayer.svelte';
+	import Navbar from '../components/Navbar.svelte';
+	import Footer from '../components/Footer.svelte';
 </script>
 
 <div class="app">
 	<Autolayer>
-		<Header />
+		<!-- <Header /> -->
 		<Navbar />
 		<main>
 			<slot />
