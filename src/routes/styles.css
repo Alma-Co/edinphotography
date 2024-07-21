@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
 
 :root {
-	--font-body: 'Reenie Beanie', 'Helvetica Neue', sans-serif;
+	--font-body: 'Courier New', Courier, monospace, "Helvetica Neue", sans-serif;
 	--font-mono: 'Fira Mono', monospace;
 	--color-bg-0: rgba(18, 17, 21);
 	--color-text: rgb(252, 248, 255);
@@ -37,9 +37,6 @@ a {
 	text-decoration: none;
 }
 
-a:hover {
-	text-decoration: underline;
-}
 
 h1 {
 	font-size: 2rem;

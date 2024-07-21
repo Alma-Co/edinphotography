@@ -3,7 +3,6 @@
 <script lang="ts">
 	import data from '$lib/data/colors-and-shapes.json';
 	import type { Data } from '$lib/models/types.svelte';
-	import Picture from '../Picture.svelte';
 
 	const { components } = data as Data;
 </script>
