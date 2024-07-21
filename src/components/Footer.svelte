@@ -1,5 +1,4 @@
-<script>
-	export const prerender = true;
+<script lang="ts">
 	import github from '$lib/images/github.svg';
 </script>
 
@@ -16,4 +15,7 @@ happy to see u!
 
 
 <style>
+	footer {
+		font-family: 'Reenie Beanie';
+	}
 </style>
