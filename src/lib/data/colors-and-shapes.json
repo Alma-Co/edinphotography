@@ -10,44 +10,55 @@
           "disposition": "line",
           "images": [
             {
-              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587189/DSCF0561_yuakgq.webp"
+              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587189/DSCF0561_yuakgq.webp",
+              "imageAlt": "trees",
+              "description": "La Réunion (2021)"
             },
             {
-              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587191/DSCF0527_szaxon.webp"
+              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587191/DSCF0527_szaxon.webp",
+              "imageAlt": "golf hole",
+              "description": "La Réunion (2021)"
             },
             {
-              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587192/DSCF0489_jonykj.webp"
+              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587192/DSCF0489_jonykj.webp",
+              "imageAlt": "docks",
+              "description": "Saint Pierre, La Réunion (2021)"
             },
             {
-              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587192/DSCF0492_uoh1qr.webp"
+              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587192/DSCF0492_uoh1qr.webp",
+              "imageAlt": "docks-2",
+              "description": "Saint Pierre, La Réunion (2021)"
             }
           ]
         },
         {
-          "disposition": "left",
+          "disposition": "line",
           "images": [
             {
-              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587181/DSCF0888_ncz2sg.webp"
+              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587181/DSCF0888_ncz2sg.webp",
+              "description": "Jardin des épices, La Réunion (2021)",
+              "imageAlt": "fence"
             },
             {
-              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1708861807/shapes/palmeras_nxtgze.webp"
-            }
-          ]
-        },
-        {
-          "disposition": "right",
-          "images": [
-            {
-              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587192/DSCF0265_bxratl.webp"
+              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1708861807/shapes/palmeras_nxtgze.webp",
+              "description": "Swimming pool, La Réunion (2021)",
+              "imageAlt": "swimming pool"
             },
             {
-              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1710684541/DSCF0572_r2gzwf.webp"
+              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587198/DSCF0420_o0mq2v.webp",
+              "imageAlt": "portal garden",
+              "description": "Cilaos, La Réunion (2021)"
+            },
+            {
+              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587185/DSCF0409_nysano.webp",
+              "imageAlt": "roof gutter",
+              "description": "Cilaos, La Réunion (2021)"
             }
           ]
         }
       ],
       "spacer": {
-        "padding": "small"
+        "padding": "large"
       }
     },
     {
@@ -56,62 +67,109 @@
         {
           "images": [
             {
-              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587198/DSCF0420_o0mq2v.webp"
-            },
-            {
-              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587198/DSCF0593_xxa6ti.webp"
-            },
-            {
-              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587185/DSCF0409_nysano.webp"
-            }
-          ],
-          "disposition": "line"
-        },
-        {
-          "images": [
-            {
-              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587181/DSCF0670_y6r7sh.webp"
-            },
-            {
-              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587180/DSCF0636_d3s7gj.webp"
+              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1708885706/shapes/DSCF0265_tsxb62.webp",
+              "description": "Les Hauts, La Réunion (2021)",
+              "imageAlt": "bird on tree"
             }
           ],
           "disposition": "middle"
         }
       ],
       "spacer": {
-        "padding": "small"
+        "padding": "large"
       }
     },
     {
+      "type": "grid",
+      "spacer": {
+        "padding": "large"
+      },
       "imagesBlock": [
         {
+          "disposition": "line",
           "images": [
             {
-              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1710685488/DSCF1164_vtzzpk.webp"
+              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587198/DSCF0593_xxa6ti.webp",
+              "imageAlt": "coral",
+              "description": "Boucan Canot, La Réunion (2021)"
             },
             {
-              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587173/DSCF1160_iu2ojv.webp"
+              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1710684541/DSCF0572_r2gzwf.webp",
+              "description": "Boucan Canot, La Réunion (2021)",
+              "imageAlt": "coral-2"
             },
+            {
+              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587181/DSCF0670_y6r7sh.webp",
+              "description": "route du Litoral, La Réunion (2021)",
+              "imageAlt": "seaside"
+            },
+            {
+              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587180/DSCF0636_d3s7gj.webp",
+              "description": "route du Litoral, La Réunion (2021)",
+              "imageAlt": "seaside-2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grid",
+      "imagesBlock": [
+        {
+          "disposition": "line",
+          "images": [
+            {
+              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1710685488/DSCF1164_vtzzpk.webp",
+              "imageAlt": "pathwalk",
+              "description": "France (2023)"
+            },
+            {
+              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587173/DSCF1160_iu2ojv.webp",
+              "description": "France (2023)",
+              "imageAlt": "sky-colored"
+            },
+            {
+              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1721670450/DSCF1169_cwonwm.jpg",
+              "imageAlt": "house colored",
+              "description": "France (2023)"
+            },
+            {
+              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1710685305/DSCF1675_r0w66q.webp",
+              "description": "Andalucía (2023)",
+              "imageAlt": "cactus tree"
+            }
+          ]
+        },
+        {
+          "disposition": "middle",
+          "images": [
             {
               "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1710685307/DSCF1671_svnher.webp"
             },
             {
               "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1710685306/DSCF1106_aqn6rx.webp"
-            },
-            {
-              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1710685305/DSCF1675_r0w66q.webp"
-            },
-            {
-              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587175/DSCF1610_tkpt92.webp"
-            },
-            {
-              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587179/DSCF1819_gk5jrm.webp"
             }
           ]
         }
       ],
-      "type": "flex",
+      "spacer": {
+        "padding": "large"
+      }
+    },
+    {
+      "type": "grid",
+      "imagesBlock": [
+        {
+          "disposition": "middle",
+          "images": [
+            {
+              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1710685084/DSCF1761_fxbcwh.webp",
+              "imageAlt": "floor patterns",
+              "description": "Barcelona (2023)"
+            }
+          ]
+        }
+      ],
       "spacer": {
         "padding": "large"
       }
@@ -121,16 +179,46 @@
         {
           "images": [
             {
-              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587170/DSCF1973_yfyrtf.webp"
+              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587171/DSCF5397_ki09ie.webp",
+              "imageAlt": "church",
+              "description": "Church, Georgia"
             },
             {
-              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587169/DSCF7542_cwgiqv.webp"
+              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587169/DSCF7542_cwgiqv.webp",
+              "imageAlt": "tbilissi house",
+              "description": "Tbilisi house, Georgia"
             }
           ],
           "disposition": "line"
         }
       ],
-      "type": "grid"
+      "type": "grid",
+      "spacer": {
+        "padding": "small"
+      }
+    },
+    {
+      "type": "grid",
+      "imagesBlock": [
+        {
+          "disposition": "line",
+          "images": [
+            {
+              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587170/DSCF1973_yfyrtf.webp",
+              "imageAlt": "sky",
+              "description": "Barcelona"
+            },
+            {
+              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587175/DSCF1559_zkk5rv.webp",
+              "imageAlt": "festival",
+              "description": "Paris (2022)"
+            }
+          ]
+        }
+      ],
+      "spacer": {
+        "padding": "large"
+      }
     },
     {
       "type": "grid",
@@ -139,14 +227,16 @@
           "disposition": "middle",
           "images": [
             {
-              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587171/DSCF5397_ki09ie.webp"
-            },
-            {
-              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587175/DSCF1559_zkk5rv.webp"
+              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587179/DSCF1819_gk5jrm.webp",
+              "description": "Andalucía (2023)",
+              "imageAlt": "flower yellow"
             }
           ]
         }
-      ]
+      ],
+      "spacer": {
+        "padding": "large"
+      }
     }
   ]
 }
