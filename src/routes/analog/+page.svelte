@@ -3,7 +3,6 @@
 <script lang="ts">
 	import data from '$lib/data/analog.json';
 	import type { Data } from '$lib/models/types.svelte';
-	import Picture from '../Picture.svelte';
 
 	const { components } = data as Data;
 	"h-[100px] sm:h-[140px] md:h-[170px] lg:h-[200px] xl:h-[250px]"

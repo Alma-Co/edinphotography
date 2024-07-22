@@ -1,4 +1,4 @@
-<script>
+<!-- <script lang="ts">
 	import camera from '$lib/images/camera-love.svg';
 </script>
 
@@ -8,10 +8,13 @@
 	</h1>
 	<div class="flex gap-4">
 	<span>..</span> 
-	<img class="w-[30px]" src={camera} alt="Camera" />
+	<img class="w-[20px] sm:w-[30px]" src={camera} alt="Camera" />
 	<span>..</span> 
 	</div>
 </header>
 
 <style lang="postcss">
-</style>
+	h1 {
+		font-family: 'Reenie Beanie';
+	}
+</style> -->
