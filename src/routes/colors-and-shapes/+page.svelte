@@ -44,6 +44,12 @@
 					<GridImage {openModal} bind:pictureId bind:defaultModal {block} />
 				{/each}
 			</div>
+			{#if component.spacer && component.spacer.padding === "small"}
+				<div class="py-8"></div>
+			{/if}
+			{#if component.spacer && component.spacer.padding === "large"}
+				<div class="py-14"></div>
+			{/if}
 		{/if}
 		{#if component.type === 'flex'}
 			<div class="flex justify-center flex-wrap gap-3">
@@ -59,6 +65,12 @@
 					{/each}
 				{/each}
 			</div>
+			{#if component.spacer && component.spacer.padding === "small"}
+				<div class="py-8"></div>
+			{/if}
+			{#if component.spacer && component.spacer.padding === "large"}
+				<div class="py-14"></div>
+			{/if}
 		{/if}
 	{/each}
 	<Gallery gallery={allImages} bind:defaultModal bind:pictureId />

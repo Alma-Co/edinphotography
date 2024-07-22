@@ -38,9 +38,9 @@
       display: block;
       position: fixed;
       z-index: 10;
-      padding-top: 10px;
+      padding-top: 60px;
       left: 0;
-      top: 0;
+      top: 0px;
     	width: 100%;
       height: 100%;
       overflow: auto; 
@@ -103,8 +103,8 @@
 
     @media (min-width: 600px) {
       .modal-content {
-      width: 90%;
-      height: 94%;
+      width: 94%;
+      height: 97%;
       }
 
       .close {

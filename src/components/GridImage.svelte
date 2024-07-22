@@ -13,12 +13,12 @@
   
 </script>
 
-{#if disposition === "middle'"}
+{#if disposition === "middle"}
         {#each images as object, i}
             <Picture {openModal} 
                 id={object.image.split('/').pop()?.split('.')[0]} 
                 imageRatio={imageRatio} 
-                containerClass={i=== 0 ? 'col-start-2 flex' : 'flex'} 
+                containerClass={i=== 0 ? `col-start-1 md:col-start-2 flex ${images.length === 1 && "col-span-2"}` : 'flex'} 
                 src={object.image} 
                 alt={object.imageAlt || null} 
             />
@@ -29,7 +29,7 @@
                 {openModal} 
                 id={object.image.split('/').pop()?.split('.')[0]} 
                 imageRatio={imageRatio} 
-                containerClass={i=== 0 ? 'col-start-1 flex' : 'flex'} 
+                containerClass={i=== 0 ? `col-start-1 flex ${images.length === 2 && "col-span-2"}` : `flex ${images.length === 2 && "col-span-2"}`} 
                 src={object.image} 
                 alt={object.imageAlt || null} 
             />
