@@ -1,4 +1,85 @@
 {
   "date": "2024-03-05T11:50:54.094Z",
-  "title": "Analog"
+  "title": "Analog",
+  "components": [
+    {
+      "type": "flex",
+      "imagesBlock": [
+        {
+          "images": [
+            {
+              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587110/img631_jvbosa.webp",
+              "description": "Barcelona port",
+              "imageAlt": "barcelone-port"
+            },
+            {
+              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587113/img604_kciv5y.webp",
+              "description": "Eixample, Barcelona"
+            },
+            {
+              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587113/img606_rdtw6y.webp",
+              "description": "Barcelona summer"
+            },
+            {
+              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587113/img610_qfysus.webp",
+              "description": "Eixample Barcelona"
+            },
+            {
+              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587113/img609_b4g3yd.webp"
+            },
+            {
+              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587105/img612_utorlm.webp",
+              "description": ""
+            },
+            {
+              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587111/img608_nuwkbx.webp"
+            },
+            {
+              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587110/img607_ohz09y.webp"
+            },
+            {
+              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587111/img605_nti3i5.jpg"
+            },
+            {
+              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587105/img646_ahjbvt.webp"
+            },
+            {
+              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587106/img647_kvgdwu.webp"
+            },
+            {
+              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587105/img611_fzko1i.webp",
+              "description": "Passeig de San Joan, Barcelona"
+            },
+            {
+              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587111/img639_liajp7.webp",
+              "description": "Ciutadella, Barcelona"
+            },
+            {
+              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587108/img640_cofjm7.webp",
+              "description": "Ciutadella, Barcelona"
+            },
+            {
+              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587106/img641_ayd2vv.webp",
+              "description": "Arc de Triomf, Barcelona"
+            },
+            {
+              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587105/img642_qtwlub.webp",
+              "description": "Arc de Triomf, Barcelona"
+            },
+            {
+              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587107/IMG_2789_ew95fa.webp"
+            },
+            {
+              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587107/IMG_2776_a1xbf0.webp",
+              "description": "Airport"
+            },
+            {
+              "image": "https://res.cloudinary.com/dmkeeg0ec/image/upload/v1709587113/2020-09-05-0005_iqh4fr.webp",
+              "description": "Airport"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
