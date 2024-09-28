@@ -1,20 +1,18 @@
 <script lang="ts">
 	import './styles.css';
-	import "../app.css";
-	import Header from '../components/Header.svelte';
-	import Autolayer from '../components/Autolayer.svelte';
-	import Navbar from '../components/Navbar.svelte';
-	import Footer from '../components/Footer.svelte';
+	import '../app.css';
+	import Autolayer from '$lib/components/Autolayer.svelte';
+	import Footer from '$lib/components/Footer.svelte';
+	import Header from '$lib/components/Header.svelte';
 </script>
 
 <div class="app">
 	<Autolayer>
-		<!-- <Header /> -->
-		<Navbar />
+		<Header />
 		<main>
 			<slot />
 		</main>
-		<Footer/>
+		<Footer />
 	</Autolayer>
 </div>
 

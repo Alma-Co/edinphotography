@@ -1,9 +1,9 @@
 <script lang="ts">
 	import data from '$lib/data/colors-and-shapes.json';
 	import type { Data, ImagesBlock } from '$lib/models/types.svelte';
-	import Gallery from '../../components/Gallery.svelte';
-	import GridImage from '../../components/GridImage.svelte';
-	import Picture from '../../components/Picture.svelte';
+	import Gallery from '$lib/components/Gallery.svelte';
+	import GridImage from '$lib/components/GridImage.svelte';
+	import Picture from '$lib/components/Picture.svelte';
 	const { components } = data as Data;
 
 	const allImages = components.flatMap((component) =>
