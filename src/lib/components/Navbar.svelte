@@ -1,56 +1,31 @@
-
 <script lang="ts">
 	import { IconMenu, IconX } from '@tabler/icons-svelte';
 	import { page } from '$app/stores';
-	import camera from '$lib/images/camera-love.svg';
-
 	$: open = false;
 </script>
 
-<header class="relative flex flex-col items-center pb-12">
-	<div class="flex flex-col gap-2 justify-center items-center text-xl mt-8">
-		<h1 class="text-3xl md:text-5xl font-medium">
-			Ed in photography 
-		</h1>
-		<div class="flex items-center gap-2">
-		<span>--</span> 
-		<img class="w-[15px] sm:w-[20px]" src={camera} alt="Camera" />
-		<span>--</span> 
-		</div>
-	</div>
-
-	<nav class={open ? 'nav-open' : 'hidden'}>
-
-		<ul>
+<nav class={open ? 'nav-open' : 'hidden'}>
+	<ul>
 		<li aria-current={$page.url.pathname === '/colors-and-shapes' ? 'page' : undefined}>
-			<a on:click={() => open = false} href="/colors-and-shapes">Colors and shapes</a>
+			<a on:click={() => (open = false)} href="/colors-and-shapes">Colors and shapes</a>
 		</li>
 		<li aria-current={$page.url.pathname === '/places-and-moments' ? 'page' : undefined}>
-			<a on:click={() => open = false} href="/places-and-moments">Places and moments</a>
+			<a on:click={() => (open = false)} href="/places-and-moments">Places and moments</a>
 		</li>
 		<li aria-current={$page.url.pathname === '/analog' ? 'page' : undefined}>
-			<a on:click={() => open = false} href="/analog">Analog</a>
+			<a on:click={() => (open = false)} href="/analog">Analog</a>
 		</li>
 	</ul>
-	</nav>
-
-	<button on:click={() => open = !open}>
+</nav>
+<button on:click={() => (open = !open)}>
 	{#if open}
-        <IconX size={25} stroke={1} />
-    {:else}
-        <IconMenu size={25} stroke={1} />
-    {/if}
-	</button>
-</header>
+		<IconX size={25} stroke={1} />
+	{:else}
+		<IconMenu size={25} stroke={1} />
+	{/if}
+</button>
 
 <style>
-
-	h1 {
-		font-family: 'Reenie Beanie';
-		/* font-size: 2rem; */
-		/* font-weight: 500; */
-	}
-
 	nav {
 		display: none;
 	}
@@ -61,7 +36,6 @@
 		width: 100%;
 		height: 100%;
 	}
-
 
 	ul {
 		position: fixed;
@@ -74,7 +48,7 @@
 		justify-content: center;
 		align-items: start;
 		list-style: none;
-		padding: 0 1rem;
+		padding: 10rem 1rem;
 		background-color: black;
 		width: 100%;
 		height: 30%;
@@ -123,6 +97,7 @@
 			position: static;
 			gap: 2rem;
 			padding-top: 2rem;
+			padding-bottom: 0;
 			margin: 0;
 			list-style: none;
 			flex-direction: row;
@@ -132,7 +107,6 @@
 	}
 
 	@media (min-width: 905px) {
-
 		ul {
 			gap: 3.5rem;
 		}
@@ -143,4 +117,3 @@
 		}
 	}
 </style>
-
