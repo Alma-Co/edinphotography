@@ -156,7 +156,7 @@
 		position: absolute;
 		font-size: 10px;
 		bottom: 40px;
-		left: 40px;
+		right: 40px;
 	}
 
 	@media (min-width: 905px) {
@@ -180,9 +180,8 @@
 		}
 
 		p {
-			position: absolute;
+			font-size: 14px;
 			bottom: 20px;
-			right: 20px;
 		}
 	}
 </style>

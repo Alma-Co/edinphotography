@@ -1,29 +1,82 @@
-
-
 <script lang="ts">
 	import data from '$lib/data/analog.json';
 	import type { Data } from '$lib/models/types.svelte';
-
+	import Gallery from '$lib/components/Gallery.svelte';
+	import GridImage from '$lib/components/GridImage.svelte';
+	import Picture from '$lib/components/Picture.svelte';
 	const { components } = data as Data;
-	"h-[100px] sm:h-[140px] md:h-[170px] lg:h-[200px] xl:h-[250px]"
-	'object-contain w-full'
-	const imageRatio = 'border-white border-4 rounded-sm object-cover w-full h-[100px] sm:h-[140px] md:h-[170px] lg:h-[250px] xl:h-[300px]'
+
+	const allImages = components.flatMap((component) =>
+		component.imagesBlock.flatMap((block) =>
+			block.images.map((image, index) => {
+				const imageName = image.image.split('/').pop()?.split('.')[0];
+				return {
+					src: image.image,
+					alt: image.imageAlt || imageName,
+					id: imageName || `${index}`,
+					description: image.description || ''
+				};
+			})
+		)
+	);
+
+	let defaultModal = false;
+	let pictureId = '';
+	const openModal = (id: string) => {
+		pictureId = id;
+		defaultModal = true;
+	};
 </script>
+
 <svelte:head>
 	<title>Analog</title>
 	<meta name="description" content="analog pictures" />
 </svelte:head>
 
 <section>
-	<div class="flex flex-row gap-5 flex-wrap">
-	 </div>
+	{#each components as component}
+		{#if component.type === 'grid'}
+			<div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+				{#each component.imagesBlock as block}
+					<GridImage {openModal} bind:pictureId bind:defaultModal {block} />
+				{/each}
+			</div>
+			{#if component.spacer && component.spacer.padding === 'small'}
+				<div class="py-8"></div>
+			{/if}
+			{#if component.spacer && component.spacer.padding === 'large'}
+				<div class="py-14"></div>
+			{/if}
+		{/if}
+		{#if component.type === 'flex'}
+			<div class="flex justify-center flex-wrap gap-3">
+				{#each component.imagesBlock as { images }, i}
+					{#each images as image, j}
+						<Picture
+							{openModal}
+							id={image.image.split('/').pop()?.split('.')[0]}
+							imageRatio={'border-white border-4 rounded-sm object-cover w-[350px]'}
+							containerClass={'flex'}
+							src={image.image}
+							alt={image.imageAlt || null}
+						/>
+					{/each}
+				{/each}
+			</div>
+			{#if component.spacer && component.spacer.padding === 'small'}
+				<div class="py-8"></div>
+			{/if}
+			{#if component.spacer && component.spacer.padding === 'large'}
+				<div class="py-14"></div>
+			{/if}
+		{/if}
+	{/each}
+	<Gallery gallery={allImages} bind:defaultModal bind:pictureId />
 </section>
-
 
 <style>
 	section {
 		width: 100%;
 		height: 100%;
 	}
-
 </style>
