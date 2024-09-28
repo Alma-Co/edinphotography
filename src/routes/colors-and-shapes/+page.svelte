@@ -12,8 +12,9 @@
 				const imageName = image.image.split('/').pop()?.split('.')[0];
 				return {
 					src: image.image,
-					alt: imageName || `${index}`,
-					id: imageName || `${index}`
+					alt: image.imageAlt || imageName,
+					id: imageName || `${index}`,
+					description: image.description || ''
 				};
 			})
 		)

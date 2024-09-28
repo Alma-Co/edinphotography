@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { IconChevronRight, IconChevronLeft, IconX } from '@tabler/icons-svelte';
 	import { onMount } from 'svelte';
-	export let gallery: { src: string; alt: string; id: string }[];
+	export let gallery: { src: string; alt?: string; id: string; description?: string }[];
 	export let pictureId: string;
 	export let defaultModal: boolean;
 
@@ -65,6 +65,7 @@
 				src={gallery[getIndexInArrayById].src}
 				alt={gallery[getIndexInArrayById].alt}
 			/>
+			<p>{gallery[getIndexInArrayById].description}</p>
 			{#if gallery[getIndexInArrayById].id !== gallery[gallery.length - 1].id}
 				<button
 					on:click={() => (pictureId = gallery[getIndexInArrayById + 1].id)}
@@ -151,6 +152,13 @@
 		cursor: pointer;
 	}
 
+	p {
+		position: absolute;
+		font-size: 10px;
+		bottom: 40px;
+		left: 40px;
+	}
+
 	@media (min-width: 905px) {
 		.buttons {
 			display: block;
@@ -160,6 +168,7 @@
 			padding-top: 60px;
 		}
 		.modal-content {
+			position: relative;
 			width: 100%;
 			height: 97%;
 			padding: 20px;
@@ -168,6 +177,12 @@
 		.close {
 			top: 20px;
 			right: 40px;
+		}
+
+		p {
+			position: absolute;
+			bottom: 20px;
+			right: 20px;
 		}
 	}
 </style>
